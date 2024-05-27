@@ -1,0 +1,4 @@
+name	description	price	category	images	vegetarian
+Poori Bhaji	Fluffy deep-fried bread with spicy potato curry	60	Breakfast	https://example.com/poori-bhaji.jpg	TRUE
+Aloo Paratha	Stuffed Indian bread with spiced potato filling	55	Breakfast	https://example.com/aloo-paratha.jpg	TRUE
+Chicken Wings	Spicy and crispy chicken wings	150	Starter	https://example.com/chicken-wings.jpg	FALSE

@@ -1,0 +1,1209 @@
+
+
+Super admin:
+
+
+
+{
+    "fullName":"superadmin",
+    "email":"superadmin@gmail.com",
+    "password":"superadmin123",
+    "role":"ROLE_SUPER_ADMIN"
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Customer:
+
+---------------------------------------
+LOGIN
+----------------------------------------
+
+
+
+------------------------------------------
+REGISTER
+--------------------------------------------
+{
+    "fullName": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "password": "priya123",
+    "role": "ROLE_CUSTOMER",
+    "addresses": [
+        {
+            "fullName": "Priya Patel",
+            "mobileNo": 9876543210,
+            "houseNo": "5A",
+            "streetAddress": "Anna Nagar",
+            "landmark": "Near Anna Nagar Tower",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "postalCode": "600040"
+        }
+    ]
+}
+
+
+
+
+--------------------------------------------
+
+
+
+-----------------------------------------
+
+{
+    "fullName": "Neha Gupta",
+    "email": "neha.gupta@example.com",
+    "password": "neha789",
+    "role": "ROLE_CUSTOMER",
+    "addresses": [
+        {
+            "fullName": "Neha Gupta",
+            "mobileNo": 7654321098,
+            "houseNo": "12C",
+            "streetAddress": "Nungambakkam",
+            "landmark": "Near Loyola College",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "postalCode": "600034"
+        }
+    ]
+}
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Restaurant:
+
+-------------------------------
+
+{
+    "owner": {
+        "fullName": "Deepa Patel",
+        "email": "deepa.patel@example.com",
+        "password": "deepa123",
+        "role": "ROLE_ADMIN"
+    },
+    "name": "Deepa's Delight",
+    "description": "Explore a world of culinary delights",
+    "cuisineType": "Global",
+    "address": {
+        "fullName": "Deepa Patel",
+        "mobileNo": 9876543212,
+        "houseNo": "12C",
+        "streetAddress": "Nungambakkam",
+        "landmark": "Near Gemini Flyover",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "postalCode": "600034"
+    },
+    "contactInformation": {
+        "email": "deepa.patel@example.com",
+        "mobile": 8456789434
+    },
+    "openingHours": "12:00 PM to 10:00 PM",
+    "images": [
+        "https://example.com/deepas-delight.jpg"
+    ],
+    "open": false
+}
+
+
+
+--------------------------------------------------------------
+
+{
+    "owner": {
+        "fullName": "Ravi Singh",
+        "email": "ravi.singh@example.com",
+        "password": "ravi789",
+        "role": "ROLE_ADMIN"
+    },
+    "name": "Ravi's Dhaba",
+    "description": "Taste the authentic flavors of Punjab",
+    "cuisineType": "Punjabi",
+    "address": {
+        "fullName": "Ravi Singh",
+        "mobileNo": 9876543211,
+        "houseNo": "7B",
+        "streetAddress": "T. Nagar",
+        "landmark": "Near T. Nagar Bus Stand",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "postalCode": "600017"
+    },
+    "contactInformation": {
+        "email": "ravi.singh@example.com",
+        "mobile": 8456789433
+    },
+    "openingHours": "11:00 AM to 10:00 PM",
+    "images": [
+        "https://example.com/ravis-dhaba.jpg"
+    ],
+    "open": true
+}
+
+
+
+---------------------------------------------------------
+
+{
+    "owner": {
+        "fullName": "Karthik Reddy",
+        "email": "karthik.reddy@example.com",
+        "password": "karthik456",
+        "role": "ROLE_ADMIN"
+    },
+    "name": "Spice Garden",
+    "description": "Savor the authentic flavors of South Indian cuisin",
+    "cuisineType": "South Indian",
+    "address": {
+        "fullName": "Karthik Reddy",
+        "mobileNo": 9876543213,
+        "houseNo": "22A",
+        "streetAddress": "Besant Nagar",
+        "landmark": "Near Elliot's Beach",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "postalCode": "600090"
+    },
+    "contactInformation": {
+        "email": "karthik.reddy@example.com",
+        "mobile": 8456789435
+    },
+    "openingHours": "12:00 PM to 11:00 PM",
+    "images": [
+        "https://example.com/marina-bites.jpg"
+    ],
+    "open": true
+}
+
+
+
+
+-------------------------------------------------------
+
+----------------------------TEST-----------------------------
+
+{
+    "owner": {
+        "fullName": "Neha S",
+        "email": "neha.s123@example.com",
+        "password": "nehas123",
+        "role": "ROLE_ADMIN"
+    },
+    "name": "Masala Mantra",
+    "description": "Embark on a culinary journey through India with Masala Mantra, where every dish is infused with rich flavors and spices from across the country.",
+    "cuisineType": "Indian",
+    "address": {
+        "fullName": "Neha S",
+        "mobileNo": 9076543214,
+        "houseNo": "18B",
+        "streetAddress": "Teynampet",
+        "landmark": "Near Apollo Hospital",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "postalCode": "600086"
+    },
+    "contactInformation": {
+        "email": "neha.s123@example.com",
+        "mobile": 8056789436
+    },
+    "openingHours": "11:30 AM to 10:30 PM",
+    "images": [
+        "https://example.com/masala-mantra.jpg"
+    ],
+    "open": true
+}
+---------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Food:
+
+
+---------------------------------------------------------
+BREAKFAST
+---------------------------------------------------------
+
+
+{
+    "name": "Masala Dosa",
+    "description": "Crispy and flavorful",
+    "price": 60,
+    "category": {
+        "name": "Breakfast"
+    },
+    "images": [
+        "https://example.com/masala-dosa.jpg"
+    ],
+    "restaurantId": 1,
+    "vegetarian": true
+}
+
+
+---------------------------------------------------------------------------------
+
+
+{
+  "name": "Vada",
+  "description": "Crispy and savory lentil donuts",
+  "price": 30,
+  "category": {
+    "name": "Breakfast"
+  },
+  "images": ["https://example.com/vada.jpg"],
+  "restaurantId": 2,
+  "vegetarian": true
+}
+
+
+--------------------------------------------------------
+
+
+{
+  "name": "Upma",
+  "description": "Savory South Indian semolina dish",
+  "price": 40,
+  "category": {
+    "name": "Breakfast"
+  },
+  "images": ["https://example.com/upma.jpg"],
+  "restaurantId": 3,
+  "vegetarian": true
+}
+
+
+--------------------------------------------------------
+
+{
+  "name": "Pongal",
+  "description": "Creamy and comforting rice and lentil dish",
+  "price": 50,
+  "category": {
+    "name": "Breakfast"
+  },
+  "images": ["https://example.com/pongal.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+
+------------------------------------------------------------
+
+
+
+{
+    "name": "Breakfast Combo",
+    "description": "A combination of dosa, idly, and vada",
+    "price": 120,
+    "category": {
+        "name": "Breakfast"
+    },
+    "images": [
+        "https://example.com/breakfast-combo.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": true
+}
+
+
+-------------------------------------------------------------
+
+
+
+{
+    "name": "Fruit Salad",
+    "description": "Fresh fruits tossed with honey",
+    "price": 80,
+    "category": {
+        "name": "Breakfast"
+    },
+    "images": [
+        "https://example.com/fruit-salad.jpg"
+    ],
+    "restaurantId": 3,
+    "vegetarian": true
+}
+
+
+---------------------------------------------------
+
+{
+  "name": "Poori Bhaji",
+  "description": "Fluffy deep-fried bread with spicy potato curry",
+  "price": 60,
+  "category": {
+    "name": "Breakfast"
+  },
+  "images": ["https://example.com/poori-bhaji.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+
+------------------------------------------------------------
+
+{
+  "name": "Aloo Paratha",
+  "description": "Stuffed Indian bread with spiced potato filling",
+  "price": 55,
+  "category": {
+    "name": "Breakfast"
+  },
+  "images": ["https://example.com/aloo-paratha.jpg"],
+  "restaurantId": 2,
+  "vegetarian": true
+}
+
+
+-----------------------------------------------------------
+STARTER
+------------------------------------------------------------
+
+{
+  "name": "Chicken Wings",
+  "description": "Spicy and crispy chicken wings",
+  "price": 150,
+  "category": {
+    "name": "Starter"
+  },
+  "images": ["https://example.com/chicken-wings.jpg"],
+  "restaurantId": 1,
+  "vegetarian": false
+}
+
+----------------------------------------------------------------
+
+{
+    "name": "Paneer Tikka",
+    "description": "Marinated and grilled paneer cubes",
+    "price": 120,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/paneer-tikka.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": true
+}
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+{
+    "name": "Veg Spring Rolls",
+    "description": "Crispy rolls filled with mixed vegetables",
+    "price": 80,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/veg-spring-rolls.jpg"
+    ],
+    "restaurantId": 3,
+    "vegetarian": true
+}
+
+
+----------------------------------------------------------
+
+
+{
+    "name": "Chicken Wings",
+    "description": "Spicy and crispy chicken wings",
+    "price": 150,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/chicken-wings.jpg"
+    ],
+    "restaurantId": 1,
+    "vegetarian": false
+}
+
+
+--------------------------------------------------------
+
+
+
+
+{
+    "name": "Special Soup",
+    "description": "Homemade soup with fresh ingredients",
+    "price": 70,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/special-soup.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": true
+}
+
+
+----------------------------------------------------
+
+
+{
+    "name": "Cheese Pizza",
+    "description": "Delicious pizza topped with cheese",
+    "price": 200,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/cheese-pizza.jpg"
+    ],
+    "restaurantId": 3,
+    "vegetarian": true
+}
+
+
+------------------------------------------------------
+
+
+
+{
+  "name": "Veg Manchurian",
+  "description": "Fried vegetable balls in tangy sauce",
+  "price": 80,
+  "category": {
+    "name": "Starter"
+  },
+  "images": ["https://example.com/veg-manchurian.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+
+-----------------------------------------------------------------------
+
+{
+  "name": "Fish Fry",
+  "description": "Crispy fried fish fillets",
+  "price": 180,
+  "category": {
+    "name": "Starter"
+  },
+  "images": ["https://example.com/fish-fry.jpg"],
+  "restaurantId": 2,
+  "vegetarian": false
+}
+
+
+---------------------------------------------------------------------------
+
+{
+  "name": "Onion Rings",
+  "description": "Crunchy deep-fried onion slices",
+  "price": 70,
+  "category": {
+    "name": "Starter"
+  },
+  "images": ["https://example.com/onion-rings.jpg"],
+  "restaurantId": 3,
+  "vegetarian": true
+}
+
+
+------------------------------------------------------------------------------
+
+{
+  "name": "Cheese Balls",
+  "description": "Deep-fried cheese-filled balls",
+  "price": 100,
+  "category": {
+    "name": "Starter"
+  },
+  "images": ["https://example.com/cheese-balls.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+
+------------------------------------------------------------------------------
+JUICE
+------------------------------------------------------------------------------
+
+{
+  "name": "Watermelon Juice",
+  "description": "Refreshing juice made from fresh watermelon",
+  "price": 40,
+  "category": {
+    "name": "Juice"
+  },
+  "images": ["https://example.com/watermelon-juice.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+------------------------------------------------------------------------------
+
+
+{
+    "name": "Orange Juice",
+    "description": "Freshly squeezed orange juice",
+    "price": 50,
+    "category": {
+        "name": "Juice"
+    },
+    "images": [
+        "https://example.com/orange-juice.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": true
+}
+
+---------------------------------------------------------
+
+
+{
+    "name": "Mango Lassi",
+    "description": "Refreshing mango yogurt drink",
+    "price": 60,
+    "category": {
+        "name": "Juice"
+    },
+    "images": [
+        "https://example.com/mango-lassi.jpg"
+    ],
+    "restaurantId": 3,
+    "vegetarian": true
+}
+
+
+------------------------------------------------------
+
+
+
+{
+  "name": "Coconut Water",
+  "description": "Natural and hydrating coconut water",
+  "price": 30,
+  "category": {
+    "name": "Juice"
+  },
+  "images": ["https://example.com/coconut-water.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+
+---------------------------------------------------------------------
+
+{
+  "name": "Pineapple Juice",
+  "description": "Tropical and tangy pineapple juice",
+  "price": 45,
+  "category": {
+    "name": "Juice"
+  },
+  "images": ["https://example.com/pineapple-juice.jpg"],
+  "restaurantId": 2,
+  "vegetarian": true
+}
+
+
+---------------------------------------------------------------
+
+{
+  "name": "Mango Shake",
+  "description": "Creamy mango shake made with fresh mangoes",
+  "price": 50,
+  "category": {
+    "name": "Juice"
+  },
+  "images": ["https://example.com/mango-shake.jpg"],
+  "restaurantId": 3,
+  "vegetarian": true
+}
+
+
+-------------------------------------------------------------------
+
+{
+  "name": "Lemonade",
+  "description": "Classic refreshing lemon drink",
+  "price": 35,
+  "category": {
+    "name": "Juice"
+  },
+  "images": ["https://example.com/lemonade.jpg"],
+  "restaurantId": 1,
+  "vegetarian": true
+}
+
+
+--------------------------------------------------------------
+THALI
+--------------------------------------------------------------
+
+{
+  "name": "Chicken Curry Thali",
+  "description": "Spicy chicken curry served with rice and sides",
+  "price": 200,
+  "category": {
+    "name": "Thali"
+  },
+  "images": ["https://example.com/chicken-curry-thali.jpg"],
+  "restaurantId": 2,
+  "vegetarian": false
+}
+
+
+---------------------------------------------------------------
+
+{
+  "name": "Rajasthani Thali",
+  "description": "Assorted Rajasthani dishes with breads and desserts",
+  "price": 180,
+  "category": {
+    "name": "Thali"
+  },
+  "images": ["https://example.com/rajasthani-thali.jpg"],
+  "restaurantId": 3,
+  "vegetarian": true
+}
+
+
+----------------------------------------------------------------
+
+{
+  "name": "Seafood Platter",
+  "description": "Variety of seafood delicacies with accompaniments",
+  "price": 250,
+  "category": {
+    "name": "Thali"
+  },
+  "images": ["https://example.com/seafood-platter.jpg"],
+  "restaurantId": 1,
+  "vegetarian": false
+}
+
+
+-------------------------------------------------------------------
+
+{
+  "name": "North Indian Thali",
+  "description": "Authentic North Indian dishes in a traditional thali",
+  "price": 190,
+  "category": {
+    "name": "Thali"
+  },
+  "images": ["https://example.com/north-indian-thali.jpg"],
+  "restaurantId": 2,
+  "vegetarian": true
+}
+
+
+-------------------------------------------------------------------------
+
+
+{
+    "name": "Chicken Fried Rice",
+    "description": "Savory fried rice with chicken",
+    "price": 180,
+    "category": {
+        "name": "Thali"
+    },
+    "images": [
+        "https://example.com/chicken-fried-rice.jpg"
+    ],
+    "restaurantId": 3,
+    "vegetarian": false
+}
+
+----------------------------------------------------------------------------
+
+{
+    "name": "Chicken Biryani",
+    "description": "Flavorful rice dish with tender chicken",
+    "price": 180,
+    "category": {
+        "name": "Thali"
+    },
+    "images": [
+        "https://example.com/chicken-biryani.jpg"
+    ],
+    "restaurantId": 1,
+    "vegetarian": false
+}
+
+
+-----------------------------------------------------------------
+
+
+
+
+{
+    "name": "Vegetable Pulao",
+    "description": "Fragrant rice with mixed vegetables",
+    "price": 100,
+    "category": {
+        "name": "Thali"
+    },
+    "images": [
+        "https://example.com/vegetable-pulao.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": true
+}
+
+
+---------------------------------------------------------
+
+
+
+{
+    "name": "Continental Thali",
+    "description": "Assorted dishes from continental cuisine",
+    "price": 200,
+    "category": {
+        "name": "Thali"
+    },
+    "images": [
+        "https://example.com/continental-thali.jpg"
+    ],
+    "restaurantId": 3,
+    "vegetarian": true
+}
+
+
+------------------------------------------------------
+
+
+{
+    "name": "Veg Biriyani",
+    "description": "Flavorful rice dish with mixed vegetables",
+    "price": 150,
+    "category": {
+        "name": "Thali"
+    },
+    "images": [
+        "https://example.com/veg-biriyani.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": true
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------FLOW----------------------------------
+
+
+1. create superadmin---then login
+2. create new restaurant--by superadmin
+3. create new customer----and login
+4. view all restaurant and user-----by super admin
+
+
+Login as restaurant
+1. view own profile
+2. Add,update,delete,view item to menu----by admin
+
+
+Login as customer
+1. create, update,delete address
+2. view own profile
+3. View all restaurant
+4. select restaurant by name
+5. View item by searching by name, view all items in a particular restaurant, sort item asec and desc by price
+6. Add item, view items in cart, update item quantity and delete item in cart
+7. Place order by selecting address by id
+8. View their order details
+
+
+Login as restaurant
+1. View order
+2. Update order status/cancel order
+
+
+
+-------------------------------------------------------------
+                           TESTING
+-------------------------------------------------------------
+
+----------------------------FOOD---------------------------------
+
+{
+    "name": "Veg Biriyani",
+    "description": "Flavorful rice dish with mixed vegetables",
+    "price": 150,
+    "category": {
+        "name": "Thali"
+    },
+    "images": [
+        "https://example.com/veg-biriyani.jpg"
+    ],
+    "vegetarian": true
+}
+{
+    "name": "Chicken Tikka",
+    "description": "Grilled chicken marinated in spices",
+    "price": 200,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/chicken-tikka.jpg"
+    ],
+    "vegetarian": false
+}
+{
+    "name": "Masala Dosa",
+    "description": "Crispy crepe filled with spiced potato",
+    "price": 100,
+    "category": {
+        "name": "Breakfast"
+    },
+    "images": [
+        "https://example.com/masala-dosa.jpg"
+    ],
+    "vegetarian": true
+}
+{
+    "name": "Egg Fried Rice",
+    "description": "Stir-fried rice with eggs and vegetables",
+    "price": 120,
+    "category": {
+        "name": "Lunch"
+    },
+    "images": [
+        "https://example.com/egg-fried-rice.jpg"
+    ],
+    "restaurantId": 2,
+    "vegetarian": false
+}
+{
+    "name": "Orange Juice",
+    "description": "Freshly squeezed orange juice",
+    "price": 50,
+    "category": {
+        "name": "Juice"
+    },
+    "images": [
+        "https://example.com/orange-juice.jpg"
+    ],
+    "vegetarian": true
+}
+{
+    "name": "Paneer Tikka",
+    "description": "Grilled paneer cubes marinated in spices",
+    "price": 180,
+    "category": {
+        "name": "Starter"
+    },
+    "images": [
+        "https://example.com/paneer-tikka.jpg"
+    ],
+    "vegetarian": true
+}
+{
+    "name": "Fish Curry",
+    "description": "Spicy fish curry cooked in traditional style",
+    "price": 220,
+    "category": {
+        "name": "Lunch"
+    },
+    "images": [
+        "https://example.com/fish-curry.jpg"
+    ],
+    "vegetarian": false
+}
+
+
+
+----------------------------------------
+RESTAURANT 1
+
+
+  {
+    "name": "Upma",
+    "description": "Savory South Indian semolina dish",
+    "price": 40,
+    "category": {
+      "name": "Breakfast"
+    },
+    "images": ["https://example.com/upma.jpg"],
+    "vegetarian": true
+  }
+  {
+    "name": "Pongal",
+    "description": "Creamy and comforting rice and lentil dish",
+    "price": 50,
+    "category": {
+      "name": "Breakfast"
+    },
+    "images": ["https://example.com/pongal.jpg"],
+    "vegetarian": true
+  }
+  {
+    "name": "Masala Dosa",
+    "description": "Crispy South Indian crepe filled with spiced potatoes",
+    "price": 60,
+    "category": {
+      "name": "Starter"
+    },
+    "images": ["https://example.com/masala-dosa.jpg"],
+    "vegetarian": true
+  }
+  {
+    "name": "Chicken Chettinad",
+    "description": "Spicy and aromatic chicken dish from Chettinad region",
+    "price": 150,
+    "category": {
+      "name": "Starter"
+    },
+    "images": ["https://example.com/chicken-chettinad.jpg"],
+    "vegetarian": false
+  }
+  {
+    "name": "Mango Lassi",
+    "description": "Refreshing mango yogurt drink",
+    "price": 60,
+    "category": {
+      "name": "Juice"
+    },
+    "images": ["https://example.com/mango-lassi.jpg"],
+    "vegetarian": true
+  }
+  {
+    "name": "Coconut Water",
+    "description": "Natural and hydrating coconut water",
+    "price": 30,
+    "category": {
+      "name": "Juice"
+    },
+    "images": ["https://example.com/coconut-water.jpg"],
+    "vegetarian": true
+  }
+
+  {
+    "name": "Vegetarian South Indian Thali",
+    "description": "Includes items like rice, sambar, rasam, vegetable curry, papad, pickle, curd, and dessert.",
+    "price": 120,
+    "category": {
+      "name": "Thali"
+    },
+    "images": ["https://example.com/vegetarian-thali.jpg"],
+    "vegetarian": true
+  }
+  {
+    "name": "Non-Vegetarian South Indian Thali",
+    "description": "Includes items like biryani or pulao, chicken curry, fish fry or curry, rasam, sambar, papad, pickle, curd, and dessert.",
+    "price": 180,
+    "category": {
+      "name": "Thali"
+    },
+    "images": ["https://example.com/non-vegetarian-thali.jpg"],
+    "vegetarian": false
+  }
+
+
+
+----------------------------------------------------------------
+
+RESTAURANT 2
+
+
+  [
+{
+    "name": "Aloo Paratha",
+    "description": "Stuffed Indian bread with spiced mashed potatoes",
+    "price": 60,
+    "category": {
+      "name": "Breakfast"
+    },
+    "images": ["https://example.com/aloo-paratha.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Chole Bhature",
+    "description": "Spiced chickpea curry served with fried bread",
+    "price": 80,
+    "category": {
+      "name": "Breakfast"
+    },
+    "images": ["https://example.com/chole-bhature.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Paneer Tikka",
+    "description": "Grilled marinated paneer cubes",
+    "price": 100,
+    "category": {
+      "name": "Starter"
+    },
+    "images": ["https://example.com/paneer-tikka.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Butter Chicken",
+    "description": "Tender chicken cooked in a rich buttery tomato sauce",
+    "price": 180,
+    "category": {
+      "name": "Starter"
+    },
+    "images": ["https://example.com/butter-chicken.jpg"],
+    "vegetarian": false
+  },
+  {
+    "name": "Mango Lassi",
+    "description": "Refreshing mango yogurt drink",
+    "price": 60,
+    "category": {
+      "name": "Juice"
+    },
+    "images": ["https://example.com/mango-lassi.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Thandai",
+    "description": "Spiced almond milk drink",
+    "price": 40,
+    "category": {
+      "name": "Juice"
+    },
+    "images": ["https://example.com/thandai.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Vegetarian Punjabi Thali",
+    "description": "Includes items like dal makhani, paneer butter masala, naan, rice, salad, and dessert.",
+    "price": 150,
+    "category": {
+      "name": "Thali"
+    },
+    "images": ["https://example.com/vegetarian-punjabi-thali.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Non-Vegetarian Punjabi Thali",
+    "description": "Includes items like butter chicken, mutton curry, naan, rice, salad, and dessert.",
+    "price": 250,
+    "category": {
+      "name": "Thali"
+    },
+    "images": ["https://example.com/non-vegetarian-punjabi-thali.jpg"],
+    "vegetarian": false
+  }
+]
+
+
+------------------------------------------------------------------------------------
+
+RESTAURANT 3
+
+---------------------------------------------------------------
+
+[
+  {
+    "name": "Sushi",
+    "description": "Japanese dish consisting of vinegared rice topped with various ingredients like seafood, vegetables, and egg.",
+    "price": 120,
+    "category": {
+      "name": "Main Course"
+    },
+    "images": ["https://example.com/sushi.jpg"],
+    "vegetarian": false
+  },
+  {
+    "name": "Pasta Carbonara",
+    "description": "Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+    "price": 90,
+    "category": {
+      "name": "Main Course"
+    },
+    "images": ["https://example.com/pasta-carbonara.jpg"],
+    "vegetarian": false
+  },
+  {
+    "name": "Tacos",
+    "description": "Mexican dish consisting of a tortilla filled with various ingredients like meat, beans, cheese, and vegetables.",
+    "price": 80,
+    "category": {
+      "name": "Main Course"
+    },
+    "images": ["https://example.com/tacos.jpg"],
+    "vegetarian": false
+  },
+  {
+    "name": "Pad Thai",
+    "description": "Thai stir-fried noodle dish with shrimp, tofu, bean sprouts, peanuts, and egg.",
+    "price": 100,
+    "category": {
+      "name": "Main Course"
+    },
+    "images": ["https://example.com/pad-thai.jpg"],
+    "vegetarian": false
+  },
+  {
+    "name": "Chicken Shawarma",
+    "description": "Middle Eastern dish of thinly sliced marinated chicken, wrapped in pita bread with vegetables and sauce.",
+    "price": 150,
+    "category": {
+      "name": "Main Course"
+    },
+    "images": ["https://example.com/chicken-shawarma.jpg"],
+    "vegetarian": false
+  },
+  {
+    "name": "Falafel",
+    "description": "Middle Eastern fried ball or patty made from ground chickpeas, fava beans, or both.",
+    "price": 70,
+    "category": {
+      "name": "Starter"
+    },
+    "images": ["https://example.com/falafel.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Greek Salad",
+    "description": "Mediterranean salad with tomatoes, cucumbers, olives, feta cheese, and a dressing of olive oil and herbs.",
+    "price": 60,
+    "category": {
+      "name": "Salad"
+    },
+    "images": ["https://example.com/greek-salad.jpg"],
+    "vegetarian": true
+  },
+  {
+    "name": "Hummus",
+    "description": "Levantine dip or spread made from cooked, mashed chickpeas blended with tahini, olive oil, lemon juice, and garlic.",
+    "price": 50,
+    "category": {
+      "name": "Appetizer"
+    },
+    "images": ["https://example.com/hummus.jpg"],
+    "vegetarian": true
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
